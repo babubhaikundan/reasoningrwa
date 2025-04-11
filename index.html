@@ -25,33 +25,40 @@
         .search-bar { margin: 20px auto; width: 80%; max-width: 600px; }
         .search-bar input { width: 100%; padding: 10px; border: 2px solid #007bff; border-radius: 5px; font-size: 16px; }
         .no-results { color: red; font-weight: bold; margin-top: 20px; display: none; }
-        #video-player { display: none; margin: 20px auto; width: 90%; max-width: 800px; }
+        #video-player { display: none; margin: 20px auto; width: 90%; max-width: 900px; }
         .download-button { margin-top: 10px; text-align: center; }
         .download-button a { background: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; }
         .download-button a:hover { background: #0056b3; }
     </style>
 </head>
 <body>
-    <div class="header">Foundation Batch REASONING RWA (Sandeep Sir)</div>
-    <div class="subheading">📥 𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 : <a href="https://instagram.com/babubhaikundan" target="_blank">𝕂𝕦𝕟𝕕𝕒𝕟 𝕐𝕒𝕕𝕒𝕧 😎</a></div>
+    <div class="header">Foundation Batch REASONING RWA (Sandeep Sir) <img src="https://appxcontent.kaxa.in/paid_course3/2024-02-29-0.9490281482237202.jpeg"  width="300" height="160">
+ </div>
+    <div class="subheading">📥𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 : <a href=https://instagram.com/babubhaikundan" target="_blank"> 𝕂𝕦𝕟𝕕𝕒𝕟 𝕐𝕒𝕕𝕒𝕧  <img src="image.jpg"  width="50" height="50">
+
+ </a></div>
 
     <div class="search-bar">
         <input type="text" id="searchInput" placeholder="Search for videos, PDFs, or other resources..." oninput="filterContent()">
     </div>
-
-        <p>🔹𝐂𝐨𝐧𝐭𝐞𝐜𝐭 𝐢𝐝- : <a href="https://t.me/Kundan_Yadav_bot" target="_blank"> 𝕂𝕦𝕟𝕕𝕒𝕟 𝕐𝕒𝕕𝕒𝕧 😎 </a></p>
+   <div class="container">
+        <p>🔹𝐂𝐨𝐧𝐭𝐞𝐜𝐭 𝐢𝐝- 
+        <a href="https://t.me/Kundan_Yadav_bot"> <button font color="black" >
+          𝕂𝕦𝕟𝕕𝕒𝕟 𝕐𝕒𝕕𝕒𝕧 ⚠️ </a>
+        </p> </div>
 
     <div id="video-player">
-        <video id="engineer-babu-player" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
+        <video id="engineer-babu-player" class="video-js vjs-default-skin" controls  width="640" height="360">
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a web browser that
                 <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
             </p>
+            
         </video>
         <div class="download-button">
             <a id="download-link" href="#" download>Download Video</a>
         </div>
-        <div style="text-align: center; margin-top: 10px; font-weight: bold; color: #007bff;"> Player</div>
+      
     </div>
 
     <div class="container">
@@ -81,9 +88,9 @@
         </div>
     </div>
 
-    <div class="footer"> ⬇️Downloaded By- <a href="https://t.me/kundan_yadav_bot" target="_blank">𝕂𝕦𝕟𝕕𝕒𝕟 𝕐𝕒𝕕𝕒𝕧 😎</a></div>
+    <div class="footer">Extracted By - <a href="https://t.me/kundan_yadav_bot" target="_blank">𝕂𝕦𝕟𝕕𝕒𝕟 𝕐𝕒𝕕𝕒𝕧 😎</a></div>
 
-    <script src="https://vjs.zencdn.net/8.1 0. 0/video.min.js"></script>
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/videojs-hls-quality-selector@latest/dist/videojs-hls-quality-selector.min.js"></script>
 
     <script>
@@ -92,8 +99,10 @@
             autoplay: false,
             preload: 'auto',
             fluid: true,
-            playbackRates: [0.5, 1, 1.5, 1.7,2],
-            plugins: {hlsQualitySelector:{displayCurrentQuality: true,}}
+            playbackRates: [0.5, 1, 1.5, 1.7,2,2.5,4],
+            plugins: {
+             hlsQualitySelector: {
+            displayCurrentQuality: true,}}
         });
 
         function playVideo(url) {
